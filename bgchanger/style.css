@@ -1,0 +1,46 @@
+body {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.color-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.color {
+    width: 40px;
+    height: 20px;
+    margin: 0 2px;
+}
+
+.color.red {
+    background-color: red;
+}
+
+.color.lightblue {
+    background-color: #00bfff;
+}
+
+.color.purple {
+    background-color: #800080;
+}
+
+.color.salmon {
+    background-color: #fa8072;
+}
+
+.color.magenta {
+    background-color: magenta;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
