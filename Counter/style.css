@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: #fff;
+    position: relative;
+}
+
+.braces {
+    margin-right: 0.5rem;
+}
+
+
+
+.count {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+}
+
+.label {
+    font-size: 1.5rem;
+    color: #ddd;
+}
